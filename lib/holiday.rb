@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
       holi_name.to_s.split("_").map { |x| x.capitalize }
       supply.map {|x| x.capitalize }
   end
-
+end
 end
 
 def all_holidays_with_bbq(holiday_hash)
